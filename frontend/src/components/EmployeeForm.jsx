@@ -8,9 +8,12 @@ import { toast } from 'react-hot-toast'
 
 const EmployeeForm = () => {
 
+  const navigate = useNavigate();
+
   const [formValues, setFormValues] = useState({
     username: '', email: '', title: '', department: '', role: ''
   })
+
 
   const isAnyInputFilled = Object.values(formValues).some(value => value !== '');
 
@@ -21,33 +24,50 @@ const EmployeeForm = () => {
     toast.success('Inputs Clear')
   }
 
-  const navigate = useNavigate();
 
-  const url = import.meta.env.VITE_APP_BASE_URL;
+
+  const BASE_URL = import.meta.env.VITE_APP_BASE_URL;
   // console.log('url --> ', url)
 
 
+  // sending saved data to DB 
   const sendFormDataToDb = async (e, data) => {
-    console.log("This form data is sending to DB -> ", data)
+    console.log("This form data will be send to DB -> ", data);
     e.preventDefault();
-    toast.dismiss()
+    toast.dismiss();
 
-    const savedEmpData = await fetch(
-      `${import.meta.env.VITE_APP_BASE_URL}/createUser`,
-      // "http://localhost:4000/api/v1/createUser",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ ...data }),
+    try {
+      const response = await toast.promise(
+        fetch(
+          `${BASE_URL}/createUser`,
+          // "http://localhost:4000/api/v1/createUser",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ ...data }),
+          }
+        )
+        , {
+          loading: <b>Saving...</b>,
+          success: <b>Employee Entry Created...!</b>,
+          error: <b>Form not submitted, Try again.</b>,
+        });
+
+      if (response.ok) {
+        console.log("Form data has stored to DB --> ", response);
+        navigate('/');
+      } else {
+        toast.error('Form not submitted, Try again.')
       }
-    );
+    } catch (error) {
+      console.log('Error while sending form data to API - ', error);
+    }
+  };
 
-    toast.success('Employee Entry Created...!')
-    console.log("Saved form data to db --> ", savedEmpData);
-    navigate('/')
-  }
+
+
 
   // saving all input data 
   const onChange = (e) => {
