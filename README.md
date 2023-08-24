@@ -34,7 +34,7 @@ Welcome to the Employee Entry Website repository! This project empowers employee
 - 🚀 **Streamlined Data Collection:** Your form data is consolidated into a single object before being sent to the database.
 - 🌐 **MongoDB Atlas Integration:** Benefit from robust and scalable cloud database storage using MongoDB Atlas.
 - 🔌 **API Endpoints:** Experience smooth data submission and retrieval through our API endpoints.
-
+- ⏳ **Loading Sleleton:** As soon as data is being fetched, a loading skeleton will be displayed on the page to enhance the user experience.
 
 ## 📂 Pages
 
