@@ -18,7 +18,7 @@ Welcome to the Employee Entry Website repository! This project empowers employee
 
 - **Backend:** Express.js 💻
 - **Frontend:** Vite + React.js ⚛️
-- **Styling:** Tailwind 🎨
+- **Styling:** Tailwind CSS 🎨
 - **Database:** MongoDB Atlas  📊
 - **API Testing:** Postman  🧪
 - **Database Testing:** MongoDB Compass 🧭
