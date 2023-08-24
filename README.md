@@ -1,12 +1,13 @@
+# Employee Entry Website 👥💼
 
-# Live link - [  https://employee-entry.netlify.app/  ]
+<img width="100%" src='https://raw.githubusercontent.com/aniruddha-gade/Employee-Entry__Full-Stack/main/screenshots/group_employee.gif' />
+
+# Live link 🌍📡 - [  https://employee-entry.netlify.app/  ]
 
 
-<img width='100%' src='https://pulsemotivation.com/wp-content/uploads/2022/02/Pulse-Motivation-Employee-engagement-strategy%E2%80%A8.gif' />
 
-<img width='100%' src='https://i.gifer.com/4BI.gif' />
+<img width="50%" src="https://raw.githubusercontent.com/aniruddha-gade/Employee-Entry__Full-Stack/main/screenshots/employee.gif" alt="Employee Entry Website Screenshot" />
 
-<img width='200px' src='https://mir-s3-cdn-cf.behance.net/project_modules/hd/e7e2fc55989429.599c07a92222a.gif' />
 
 # Employee Entry Website 👥💼
 
@@ -26,6 +27,7 @@ Welcome to the Employee Entry Website repository! This project empowers employee
 
 ## ✨ Features
 
+- ♻️ **Single Page Application**: Enjoy a seamless browsing experience with React's single page application architecture.
 - 📱 **Responsive Design:** Enjoy a flawless experience on all devices with our responsive design.
 - 📝 **Effortless Form Filling:** Seamlessly input your details on our user-friendly form filling page.
 - 🏠 **Homepage Overview:** Get an overview of all submitted employees data on the homepage.
@@ -34,12 +36,11 @@ Welcome to the Employee Entry Website repository! This project empowers employee
 - 🔌 **API Endpoints:** Experience smooth data submission and retrieval through our API endpoints.
 
 
+## 📂 Pages
 
-## 🚀 API Testing
+- **Homepage**🏠 : On the homepage, you can view a list of all employees' data. Each employee's Name, Email Id, Department, and Role are displayed in a user-friendly table format. There's also a "Add Employee" button that takes you to the form filling page.
 
-Employ Postman or a similar tool to test the API endpoints. Double-check that your requests have the accurate URL and headers.
+- **Form Filling Page** 📝: The form filling page allows you to submit employee data. You can fill in details such as Name, Email Id, Department, and Role. Once you've filled in the required information, you can submit the form, and the data will be sent to the backend server and stored in the database.
 
-## 🚀 Database Testing
-
-Visualize and manage your MongoDB database effortlessly using MongoDB Compass. Connect to your MongoDB Atlas cluster to explore your stored employee data with ease.
+##  🖥️ Screen Preview: 
 
