@@ -44,3 +44,17 @@ Welcome to the Employee Entry Website repository! This project empowers employee
 
 ##  🖥️ Screen Preview: 
 
+ # HomePage - Loading Skeleton
+ ![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Employee-Entry__Full-Stack/main/screenshots/image1.png)
+
+ # HomePage
+ ![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Employee-Entry__Full-Stack/main/screenshots/image2.png)
+
+ # Go back 
+ ![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Employee-Entry__Full-Stack/main/screenshots/image4.png)
+
+ # Form Validation
+ ![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Employee-Entry__Full-Stack/main/screenshots/image5.png)
+
+ # Form
+ ![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Employee-Entry__Full-Stack/main/screenshots/image3.png)
