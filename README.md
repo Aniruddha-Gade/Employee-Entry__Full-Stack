@@ -28,7 +28,7 @@ Welcome to the Employee Entry Website repository! This project empowers employee
 ## ✨ Features
 
 - ♻️ **Single Page Application**: Enjoy a seamless browsing experience with React's single page application architecture.
-- ✅ **Form Validation**: Receive instant feedback and error messages when filling out the form, guiding users to input correct and complete information.
+- ✅ **Form Validation**: Receive instant feedback and error messages when filling out the form, guiding for correct and complete information.
 - 📝 **Effortless Form Filling:** Seamlessly input your details on our user-friendly form filling page.
 - ⏳ **Loading Sleleton:** As soon as data is being fetched, a loading skeleton will be displayed on the page to enhance the user experience.
 - 🚀 **Streamlined Data Collection:** Your form data is consolidated into a single object before being sent to the database.
